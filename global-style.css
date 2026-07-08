@@ -1,9 +1,8 @@
 :root {
-    --background-dark: #020114;
-    --highlight-dark: #575757;
+    --background-dark: #33373A;
     --background-clear: #DDDDD6;
     --background-mid-clear: #FFD887;
-    --highlight-clear: #FBBA00;
+    --background-mid: #FBBA00;
 }
 
 * {
@@ -20,7 +19,7 @@ body {
 }
 
 header {
-    background-color: var(--highlight-dark);
+    background-color: var(--background-dark);
     color: var(--background-clear);
     padding: 60px 20px;
     text-align: center;
@@ -44,7 +43,7 @@ section {
 }
 
 .section-title {
-    color: var(--highlight-dark);
+    color: var(--background-dark);
     font-size: 2rem;
     margin-bottom: 20px;
     position: relative;
@@ -55,12 +54,12 @@ section {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: var(--highlight-clear);
+    background-color: var(--background-mid);
     margin-top: 8px;
 }
 
 .highlight {
-    background-color: var(--highlight-clear);
+    background-color: var(--background-mid);
     color: var(--background-dark);
     padding: 40px 20px;
     text-align: center;
