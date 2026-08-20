@@ -13,7 +13,7 @@
         top: 100%;
         left: 0;
         width: 40%;
-        background-color: var(--color_dark_logo);
+        background-color: var(--background-dark);
         padding: 10px 0;
         text-align: center;
         z-index: 1000;
