@@ -1,3 +1,5 @@
+@import url('../variables.css');
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -13,7 +15,7 @@
     display: block;
     width: 100%;
     height: 4px;
-    background: var(--color_clear);
+    background: var(--background-clear);
     border-radius: 4px;
     transition: all 0.3s ease;
 }

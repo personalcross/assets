@@ -1,5 +1,7 @@
+@import url('../variables.css');
+
 .custom-header {
-    background-color: var(--color_dark_logo);
+    background-color: var(--background-dark);
     text-align: right;
 }
 
