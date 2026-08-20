@@ -1,9 +1,4 @@
-:root {
-    --background-dark: #000000;
-    --background-clear: #EEEEE6;
-    --background-mid-clear: #FFD887;
-    --background-mid: #FBBA00;
-}
+@import url('./variables.css');
 
 * {
     margin: 0;
