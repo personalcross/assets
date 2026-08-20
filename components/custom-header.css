@@ -1,0 +1,16 @@
+.custom-header {
+    background-color: var(--color_dark_logo);
+    text-align: right;
+}
+
+.custom-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px var(--color_dark_shadow);
+}
+
+.custom-header p {
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px var(--color_dark_shadow);
+}
