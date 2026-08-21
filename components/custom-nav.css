@@ -1,7 +1,7 @@
 @import url('../variables.css');
 
 .custom-nav {
-    background-color: var(--color_dark_logo);
+    background-color: var(--background-dark);
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
