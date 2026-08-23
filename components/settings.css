@@ -1,0 +1,37 @@
+.settings-sidebar {
+    position: fixed;
+    top: 0;
+    right: -325px;
+    width: 280px;
+    height: 100%;
+    background: #f7f7f7;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+.settings-sidebar.open {
+    right: 0;
+}
+
+.settings-sidebar .close-settings {
+    background: none;
+    border: none;
+    font-size: 24px;
+    float: right;
+    cursor: pointer;
+}
+
+.settings-options {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-options button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
