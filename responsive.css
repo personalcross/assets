@@ -5,6 +5,10 @@
         display: flex;
     }
 
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+
     .nav-links {
         display: none;
         flex-direction: column;
@@ -26,4 +30,13 @@
     nav {
         position: relative;
     }
+}
+
+@media (max-width: 600px) {
+
+    .highlight {
+        gap: 15px;
+        flex-direction: column;
+    }
+
 }

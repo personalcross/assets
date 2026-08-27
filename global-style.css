@@ -58,6 +58,21 @@ section {
     color: var(--background-dark);
     padding: 40px 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.highlight a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.highlight a:hover {
+    text-decoration: underline;
 }
 
 .highlight p {
