@@ -83,7 +83,6 @@ section {
     display: block;
 }
 
-
 /* Social networks */
 
 .highlight-social {
@@ -94,7 +93,6 @@ section {
 
 .highlight-social p {
     margin: 0 0 8px 0;
-
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -121,10 +119,13 @@ section {
     transition: opacity 0.2s;
 }
 
+.copyright {
+    padding: 20px 0;
+}
+
 footer {
     background-color: var(--background-dark);
     color: var(--background-clear);
     text-align: center;
-    padding-bottom: 20px;
     font-size: 0.9rem;
 }
