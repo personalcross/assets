@@ -56,36 +56,71 @@ section {
 .highlight {
     background-color: var(--background-mid);
     color: var(--background-dark);
-    padding: 40px 20px;
-    text-align: center;
+
+    padding: 30px 40px;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+
+    width: 100%;
 }
 
-.highlight a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+/* Company logo */
+
+.highlight-logo {
+    display: flex;
+    align-items: center;
 }
 
-.highlight a:hover {
-    text-decoration: underline;
+.highlight-logo img {
+    width: 150px;
+    height: auto;
+    display: block;
 }
 
-.highlight p {
-    max-width: 900px;
-    margin: auto;
+
+/* Social networks */
+
+.highlight-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.highlight-social p {
+    margin: 0 0 8px 0;
+
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 footer {
     background-color: var(--background-dark);
     color: var(--background-clear);
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
     font-size: 0.9rem;
 }
