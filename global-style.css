@@ -74,7 +74,7 @@ section {
 }
 
 .highlight-logo img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
 }
@@ -85,7 +85,7 @@ section {
 .highlight-social {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .highlight-social p {
