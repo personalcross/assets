@@ -55,3 +55,15 @@
     padding: 30px;
 }
 
+@media (max-width: 600px) {
+
+    .list-item {
+        flex-wrap: wrap;
+    }
+
+    .list-item-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+}
