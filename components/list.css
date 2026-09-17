@@ -1,0 +1,57 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background-color: var(--white);
+
+    padding: 18px 20px;
+
+    border-left: 6px solid var(--green);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.list-item.inactive {
+    border-left: 4px solid #d32f2f;
+}
+
+.list-item-main-value {
+    flex: 1;
+    font-weight: bold;
+}
+
+.list-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.list-item-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+    padding: 5px;
+}
+
+.list-item-action img {
+    width: 24px;
+    height: 24px;
+}
+
+.list-message {
+    text-align: center;
+    padding: 30px;
+}
+
