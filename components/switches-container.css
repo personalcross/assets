@@ -1,0 +1,22 @@
+.switches-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.switches-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.switch-field {
+    flex: 1;
+}
+
+.switch-field:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
