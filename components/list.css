@@ -19,7 +19,11 @@
 }
 
 .list-item.inactive {
-    border-left: 4px solid #d32f2f;
+    border-left: 4px solid var(--red);
+}
+
+.list-item.check-in {
+    border-left: 4px solid var(--green);
 }
 
 .list-item-main-value {
