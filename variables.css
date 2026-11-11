@@ -7,6 +7,7 @@
     --color_dark_shadow: #000000b3;
     --color_light_shadow: #00000080;
 
-    --color-inactive: red;
-    --color-check-in: green;
+    --color-affirmative: green;
+    --color-negative: red;
+    --color-stand-by: #777;
 }
